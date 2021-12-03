@@ -20,6 +20,9 @@ const (
 	DbName    = "root:@tcp(127.0.0.1:3306)/counter?charset=utf8"
 	TableName = "counter"
 )
+/*
+create table counter(id int,time int,type int,saved int);
+*/
 
 var Db *sqlx.DB
 
